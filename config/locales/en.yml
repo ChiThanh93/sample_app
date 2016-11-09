@@ -21,6 +21,7 @@
 
 en:
   Ruby on Rails Tutorial Sample App : "Ruby on Rails Tutorial Sample App"
+  Welcome to the Sample App! : "Welcome to the Sample App!"
   static_pages:
     home:
       Welcome to the Sample App : "Welcome to the Sample App"
@@ -40,6 +41,8 @@ en:
     new :
       Sign up : "Sign up"
       This will be a signup page for new users : "This will be a signup page for new users"
+      Confirmation : "Confirmation"
+      Create my account : "Create my account"
   layouts:
     header:
       sample app: "sample app"
@@ -54,3 +57,7 @@ en:
       About : "About"
       Contact : "Contact"
       News : "News"
+  shared:
+    error_messages:
+      The form contains : "The form contains "
+      error : "error"
