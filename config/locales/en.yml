@@ -23,6 +23,11 @@ en:
   Ruby on Rails Tutorial Sample App : "Ruby on Rails Tutorial Sample App"
   Welcome to the Sample App! : "Welcome to the Sample App!"
   Invalid email/password combination: "Invalid email/password combination"
+  profile_updated : "Profile updated"
+  user_deleted : "User deleted"
+  please_log_in : "Please log in."
+  sure : "You sure?"
+
   static_pages:
     home:
       Welcome to the Sample App : "Welcome to the Sample App"
@@ -43,8 +48,18 @@ en:
       Sign up : "Sign up"
       This will be a signup page for new users : "This will be a signup page for new users"
       Welcome to the Sample App! : "Welcome to the Sample App!"
-      Confirmation : "Confirmation"
-      Create my account : "Create my account"
+      create_account : "Create my account"
+    edit :
+      edit_user : "Edit user"
+      save_changes : "Save changes"
+      change : "change"
+      update : "Update your profile"
+    index:
+      all_users : "All user"
+    form:
+      confirmation : "Confirmation"
+    user :
+      delete : "delete"
   layouts:
     header:
       sample app: "sample app"
