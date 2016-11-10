@@ -22,6 +22,7 @@
 en:
   Ruby on Rails Tutorial Sample App : "Ruby on Rails Tutorial Sample App"
   Welcome to the Sample App! : "Welcome to the Sample App!"
+  Invalid email/password combination: "Invalid email/password combination"
   static_pages:
     home:
       Welcome to the Sample App : "Welcome to the Sample App"
@@ -41,14 +42,19 @@ en:
     new :
       Sign up : "Sign up"
       This will be a signup page for new users : "This will be a signup page for new users"
+      Welcome to the Sample App! : "Welcome to the Sample App!"
       Confirmation : "Confirmation"
       Create my account : "Create my account"
   layouts:
     header:
       sample app: "sample app"
-      Home : "Home"
-      Help : "Help"
-      Log in : "Log in"
+      home : "Home"
+      help : "Help"
+      log in : "Log in"
+      log out : "Log out"
+      profile : "Profile"
+      settings : "Settings"
+      users : "Users"
     footer:
       The : "The"
       Ruby on Rails Tutorial : "Ruby on Rails Tutorial"
@@ -61,3 +67,10 @@ en:
     error_messages:
       The form contains : "The form contains "
       error : "error"
+      The form contains : "The form contains"
+      error : "error"
+  sessions:
+    new:
+      login : "Log in"
+      newuser : "New user"
+      signup : "Sign up now!"
