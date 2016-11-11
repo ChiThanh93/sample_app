@@ -27,7 +27,12 @@ en:
   user_deleted : "User deleted"
   please_log_in : "Please log in."
   sure : "You sure?"
-
+  invalid : "Invalid activation link"
+  account_activated : "account activated!"
+  please_check : "Please check your email to activate your account."
+  account_not_activated : "Account not activated. Check your email for the activation link."
+  hi : "Hi"
+  account_activation : "Account activation"
   static_pages:
     home:
       Welcome to the Sample App : "Welcome to the Sample App"
@@ -90,3 +95,9 @@ en:
       newuser : "New user"
       signup : "Sign up now!"
       remember_me : "Remember me on this computer"
+  user_mailer :
+    account_activation:
+      sampleapp : "Sample App"
+      welcome : "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate : Activate
+
