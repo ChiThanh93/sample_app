@@ -33,6 +33,13 @@ en:
   account_not_activated : "Account not activated. Check your email for the activation link."
   hi : "Hi"
   account_activation : "Account activation"
+  password_reset : "Password_reset"
+  email_sent_with: "Email sent with password reset instructions"
+  email_not_found : "Email address not found"
+  password_reset_has_expired : "Password reset has expired."
+  password_reset : "Password has been reset."
+  cant_be_empty : "can't be empty"
+  reset_password : "Reset password"
   static_pages:
     home:
       Welcome to the Sample App : "Welcome to the Sample App"
@@ -87,17 +94,29 @@ en:
     error_messages:
       The form contains : "The form contains "
       error : "error"
-      The form contains : "The form contains"
-      error : "error"
   sessions:
     new:
       login : "Log in"
       newuser : "New user"
       signup : "Sign up now!"
       remember_me : "Remember me on this computer"
+      forgot_password : "Forgot password"
+  password_resets :
+    new:
+      forgot_password : "Forgot password"
+      submit : "Submit"
+    edit :
+      reset_password : "Reset password"
+      confirmation : "Confirmation"
+      update_password : "Update password"
   user_mailer :
     account_activation:
       sampleapp : "Sample App"
       welcome : "Welcome to the Sample App! Click on the link below to activate your account:"
       activate : Activate
-
+    password_reset :
+      password_reset : "Password reset"
+      to_reset : "To reset your password click the link below:"
+      this_link : "This link will expire in two hours."
+      did_not_request : "If you did not request your password to be reset, please ignore this email and
+      your password will stay as it is."
