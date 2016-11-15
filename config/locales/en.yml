@@ -44,6 +44,8 @@ en:
   micropost_deleted : Micropost deleted"
   should_less_than_5: "should be less than 5MB"
   microposts : "Microposts"
+  following : "Following"
+  followers : "Followers"
   static_pages:
     home:
       wellcome_sample_app : "Welcome to the Sample App"
@@ -80,6 +82,13 @@ en:
       delete : "delete"
     show :
       microposts : "Microposts"
+    follow :
+      follow : "Follow"
+    unfollow :
+      unfollow : "Unfollow"
+    show_follow :
+      view_my_profile : "view my profile"
+      microposts : "Microposts"
   layouts:
     header:
       sample app: "sample app"
@@ -106,7 +115,10 @@ en:
       compose_new: "Compose new micropost..."
       post : "Post"
     user_info:
-    view_my_profile : "View my profile"
+      view_my_profile : "View my profile"
+    stats :
+      following : "following"
+      followers : "followers"
   sessions:
     new:
       login : "Log in"

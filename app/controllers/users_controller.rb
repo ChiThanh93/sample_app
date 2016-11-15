@@ -5,7 +5,7 @@ class UsersController < ApplicationController
   before_action :load_user, except: [:create, :new , :index]
 
   def index
-    @users = User.page(params[:page]).order("created_at ASC")
+    @users = User.page(params[:page]).order(created_at: :ASC)
   end
 
   def show
@@ -44,6 +44,20 @@ class UsersController < ApplicationController
     @user.destroy
     flash[:success] = I18n.t(".user_deleted")
     redirect_to users_url
+  end
+
+  def following
+    @title = I18n.t(".following")
+    @user  = User.find_by id: params[:id]
+    @users = @user.following.paginate page: params[:page].order(created_at: :ASC)
+    render :show_follow
+  end
+
+  def followers
+    @title = I18n.t(".followers")
+    @user  = User.find_by id: params[:id]
+    @users = @user.followers.paginate page: params[:page].order(created_at: :ASC)
+    render :show_follow
   end
 
   private
