@@ -9,6 +9,8 @@ class UsersController < ApplicationController
   end
 
   def show
+    @microposts = @user.microposts.paginate page: params[:page], per_page: 5
+    render_404 unless @user
   end
 
   def new
